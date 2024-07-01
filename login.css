@@ -10,9 +10,10 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('img.jpg') no-repeat;
+    /* background: url('img.jpg') no-repeat; */
     background-size: cover;
     background-position: center;
+    background:linear-gradient(#5fd45b,#4cad90,#974ba1);
 }
 .nav{
     width:100px;
@@ -28,11 +29,11 @@ body{
 .wrapper{
     width: 420px;
     background: transparent;
-    border: 2px solid rgba(225, 255,255,.2);
+    border: 4px solid rgba(225, 255,255,.2);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2) ;
     color: #fff;
-    border-radius:10px ;
+    border-radius:40px ;
     padding: 30px 40px;
 }
 .wrapper h1{
@@ -52,7 +53,7 @@ body{
     background: transparent;
     border: none;
     outline:none;
-    border: 2px solid rgba(255,255,255, .2);
+    border: 3px solid rgba(255,255,255, .2);
     border-radius: 40px;
     font-size:16px;
     color:#fff;
